@@ -6,4 +6,4 @@ Keeps all the effects of Gunzerking but:
 
 # Known Problem
 
-* Sreen effect visible, shot count not working
+* Screen effect visible, shot count not working
