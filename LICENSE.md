@@ -1,5 +1,3 @@
-# Borderlands_2_Mods
- 
 By downloading, using, running, and or executing (hereby referred to as “using”) the files contained within this directory and its sub directories (hereby referred to as “directories”), the user willingly agrees to the following:
 
 * The software and or files (hereby referred to as “files”, “mod”, and or “mods”) that is provided by Lupci. Lupci is in no event responsible and liable for the cause of any/all problems that may arise from using the files provided including corruption or loss of files and or game saves.
