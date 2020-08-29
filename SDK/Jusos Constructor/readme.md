@@ -2,19 +2,19 @@
 - Load Objects from a known Package and keep it loaded
 - First files to be processed, should be good using them in your regular "set"
 ##
-- -- "#SanctuaryAir_Dynamic"
+- <b>#SanctuaryAir_Dynamic"</b>
 - '#' means: load package 'SanctuaryAir_Dynamic', in python it is 'unrealsdk.LoadPackage("SanctuaryAir_Dynamic")'
 ##
-- -- "FX_ENV_Misc.Particles.Part_Confetti"
+- <b>FX_ENV_Misc.Particles.Part_Confetti</b>
 - Read as an Object and the sdk will try to keep it loaded, in Python it is 'unrealsdk.KeepAlive(unrealsdk.FindObject("Object", "FX_ENV_Misc.Particles.Part_Confetti"))'
 ##
-- -- "#GD_Mercenary_Streaming_SF"
-- -- "D_Attributes.DamageEnhancementModifiers.LastShotInClipBonusModifier"
+- <b>#GD_Mercenary_Streaming_SF"</b>
+- <b>D_Attributes.DamageEnhancementModifiers.LastShotInClipBonusModifier</b>
 - Includes any package, load object for universal use.
 ## Resume
 ```
 #Package
-D_Object.Ingame.replacethis
+D_Object.ReplaceAllThis
 ```
 ---
 # .construct
@@ -24,26 +24,26 @@ D_Object.Ingame.replacethis
 - The "#" is used to determine the class which our to be cloned object is an instance of.
 ##
 #### Weapon Balance Definition
-- --- "#WeaponBalanceDefinition"
-- New object syntax: <object_template> [new object Name] [new object Outer]
-- --- "GD_Weap_Shotgun.A_Weapons_Legendary.SG_Bandit_5_SledgesShotgun SG_Bandit_5_Confetti" [no outer needed]
+- <b>#WeaponBalanceDefinition</b>
+- New object syntax: <b><object_template> [new object Name] [new object Outer]</b>
+- <b>GD_Weap_Shotgun.A_Weapons_Legendary.SG_Bandit_5_SledgesShotgun SG_Bandit_5_Confetti" [no outer needed]</b>
 - This constructs "WeaponBalanceDefinition'GD_Weap_Shotgun.A_Weapons_Legendary.SG_Bandit_5_Confetti'"
 ##
 #### Weapon Part Definition
-- --- "#WeaponPartDefinition"
-- --- "GD_Weap_Shotgun.Barrel.SG_Barrel_Jakobs_Sledges SG_Barrel_Confetti"
+- <b>#WeaponPartDefinition</b>
+- <b>GD_Weap_Shotgun.Barrel.SG_Barrel_Jakobs_Sledges SG_Barrel_Confetti</b>
 - This constructs "WeaponPartDefinition'GD_Weap_Shotgun.Barrel.SG_Barrel_Confetti'"
 ##
 #### For the material, to add a skin later
-- --- "GD_Weap_Shotgun.ManufacturerMaterials.Mat_Bandit_5_Legendary Mat_Bandit_5_Legendary_Confetti"
+- <b>GD_Weap_Shotgun.ManufacturerMaterials.Mat_Bandit_5_Legendary Mat_Bandit_5_Legendary_Confetti</b>
 ##
 #### Firing Mode
-- --- "#FiringModeDefinition"
-- --- "GD_Weap_Shotgun.FiringModes.Bullet_Shotgun_Teeth Bullet_Shotgun_Confetti"
+- <b>#FiringModeDefinition</b>
+- <b>GD_Weap_Shotgun.FiringModes.Bullet_Shotgun_Teeth Bullet_Shotgun_Confetti</b>
 ##
 #### Title
-- --- "#WeaponNamePartDefinition"
-- --- "GD_Weap_Shotgun.Name.Title_Bandit.Title_Legendary_Shotgun Title_Legendary_Confetti"
+- <b>#WeaponNamePartDefinition</b>
+- <b>GD_Weap_Shotgun.Name.Title_Bandit.Title_Legendary_Shotgun Title_Legendary_Confetti</b>
 ##
 - All elements constructed.
 - Automatic "GD_Weap_Shotgun.A_Weapons_Legendary.SG_Bandit_5_Confetti:WeaponPartListCollectionDefinition_1000" constructed and assigned to it.
