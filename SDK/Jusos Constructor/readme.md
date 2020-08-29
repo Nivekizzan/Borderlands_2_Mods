@@ -11,7 +11,7 @@
 - -- "#GD_Mercenary_Streaming_SF"
 - -- "D_Attributes.DamageEnhancementModifiers.LastShotInClipBonusModifier"
 - Includes any package, load object for universal use.
-##Resume
+## Resume
 ```
 #Package
 D_Object.Ingame.replacethis
@@ -22,24 +22,26 @@ D_Object.Ingame.replacethis
 ##
 - For a completely new gun we want to start with it's "WeaponBalanceDefinition"
 - The "#" is used to determine the class which our to be cloned object is an instance of.
-- --- "#WeaponBalanceDefinition"
 ##
+#### Weapon Balance Definition
+- --- "#WeaponBalanceDefinition"
 - New object syntax: <object_template> [new object Name] [new object Outer]
 - --- "GD_Weap_Shotgun.A_Weapons_Legendary.SG_Bandit_5_SledgesShotgun SG_Bandit_5_Confetti" [no outer needed]
 - This constructs "WeaponBalanceDefinition'GD_Weap_Shotgun.A_Weapons_Legendary.SG_Bandit_5_Confetti'"
 ##
+#### Weapon Part Definition
 - --- "#WeaponPartDefinition"
 - --- "GD_Weap_Shotgun.Barrel.SG_Barrel_Jakobs_Sledges SG_Barrel_Confetti"
 - This constructs "WeaponPartDefinition'GD_Weap_Shotgun.Barrel.SG_Barrel_Confetti'"
 ##
-- For the material, to add a skin later
+#### For the material, to add a skin later
 - --- "GD_Weap_Shotgun.ManufacturerMaterials.Mat_Bandit_5_Legendary Mat_Bandit_5_Legendary_Confetti"
 ##
-- Firing Mode
+#### Firing Mode
 - --- "#FiringModeDefinition"
 - --- "GD_Weap_Shotgun.FiringModes.Bullet_Shotgun_Teeth Bullet_Shotgun_Confetti"
 ##
-- Title
+#### Title
 - --- "#WeaponNamePartDefinition"
 - --- "GD_Weap_Shotgun.Name.Title_Bandit.Title_Legendary_Shotgun Title_Legendary_Confetti"
 ##
