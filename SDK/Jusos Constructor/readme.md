@@ -124,4 +124,4 @@ BaseValueScaleConstant 1.000000
 bDropOnDeath True
 +
 ```
-#### Notes made by Lupci
+#### With love, Lupci
