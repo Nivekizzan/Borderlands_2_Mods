@@ -127,3 +127,5 @@ bDropOnDeath True
 +
 ```
 #### With love, Lupci
+
+Link: https://github.com/juso40/bl2sdk_Mods/tree/master/Constructor
