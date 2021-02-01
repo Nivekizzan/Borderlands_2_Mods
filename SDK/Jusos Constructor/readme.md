@@ -113,7 +113,7 @@ set GD_Weap_Pistol.ManufacturerMaterials.Mat_Jakobs_5_Legendary_XX ScalarParamet
 - "/" is similar to hotfixes on map load
 - "/mappackage" means that the following code will only be executed if the mappackage got loaded
 - "/None" means on any map load
-### Example:
+### Example: (remove " ' " (without quotes) before the " # ")
 ```
 /None
 '#GD_Itempools.EarlyGame.Pool_Knuckledragger_Chest_Shotgun
